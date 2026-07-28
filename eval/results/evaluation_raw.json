@@ -1,0 +1,33 @@
+{
+  "forecast_accuracy": {
+    "moving_average": {
+      "mean_rmse": 11.2877,
+      "n_series": 40
+    },
+    "trend": {
+      "mean_rmse": 8.8234,
+      "n_series": 40
+    },
+    "tf_model": {
+      "mean_rmse": 7.3356,
+      "n_series": 40
+    }
+  },
+  "anomaly_detection": {
+    "true_positives": 120,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "drift_recalibration": {
+    "baseline_std": 1.6309,
+    "recent_std": 9.7652,
+    "relative_std_change": 4.9875,
+    "drift_detected": true,
+    "recalibrated": true,
+    "cusum_threshold": 48.8262,
+    "cusum_drift": 4.8826
+  }
+}
